@@ -26,7 +26,7 @@ class Rectangle extends Quadrilateral {
 
 class Square extends Rectangle {
   constructor(side1) {
-    super(side1, side1, side1, side1)
+    super(side1, side1)
   }
   getDiagonal() {
     const diagonal = super.getArea(this.side1, this.side1) * 2
