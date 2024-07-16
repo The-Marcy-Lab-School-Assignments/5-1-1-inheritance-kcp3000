@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job! */
 class Quadrilateral {
   constructor(side1, side2, side3, side4) {
     this.side1 = side1,
@@ -28,6 +29,7 @@ class Square extends Rectangle {
   constructor(side1) {
     super(side1, side1)
   }
+  /** FEEDBACK: getDiagonal should ideally be on the rectangle since you can get the diagonal of a rectangle! */
   getDiagonal() {
     const diagonal = super.getArea(this.side1, this.side1) * 2
     return Math.sqrt(diagonal)
